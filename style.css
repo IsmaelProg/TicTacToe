@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.juego {
+    background-color: aqua;
+    display: grid;
+    width: 400px;
+    height: 400px;
+    max-width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1%;
+    margin-bottom: 2%;
+    margin-top: 1%;
+    border: 5px solid aqua;
+}
+
+.cuadricula {
+    background-color: blueviolet;
+    font-size: 100px;
+    color: aqua;   
+
+}
+
+.cuadricula:hover {
+    background-color: blue;
+}
